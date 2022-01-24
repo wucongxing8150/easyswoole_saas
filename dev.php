@@ -32,13 +32,13 @@ return [
     ],
     'TEMP_DIR'       => "/tmp",
     'MYSQL'     => [
-        'host'              => '39.102.44.200', // 数据库地址
-        'port'              => 3004, // 数据库端口
+        'host'              => '127.0.0.1', // 数据库地址
+        'port'              => 3306, // 数据库端口
         'user'              => 'root', // 数据库用户名
         'password'          => CryptAes::decrypt( "rNZskoGNRDrG2G4HiN0LrA==" ), // 数据库用户密码
         'timeout'           => 45, // 数据库连接超时时间
         'charset'           => 'utf8', // 数据库字符编码
-        'database'          => 'YhEShopSaas', // 数据库名
+        'database'          => 'saas', // 数据库名
         'autoPing'          => 2, // 自动 ping 客户端链接的间隔
         'strict_type'       => false, // 不开启严格模式
         'fetch_mode'        => false,
