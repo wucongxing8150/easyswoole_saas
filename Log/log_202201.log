@@ -1,0 +1,49 @@
+[2022-01-21 14:27:25][trigger][error]:[EasySwoole\Task\Worker bind /mnt/d/WWW/phpApp/test/Temp/EasySwoole.TaskWorker.1.sock fail case Operation not supported at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2022-01-21 14:27:25][trigger][error]:[EasySwoole\Task\Worker bind /mnt/d/WWW/phpApp/test/Temp/EasySwoole.TaskWorker.3.sock fail case Operation not supported at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2022-01-21 14:27:25][trigger][error]:[EasySwoole\Task\Worker bind /mnt/d/WWW/phpApp/test/Temp/EasySwoole.TaskWorker.0.sock fail case Operation not supported at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2022-01-21 14:27:25][trigger][error]:[EasySwoole\Task\Worker bind /mnt/d/WWW/phpApp/test/Temp/EasySwoole.TaskWorker.2.sock fail case Operation not supported at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2022-01-21 14:27:25][trigger][error]:[Uncaught EasySwoole\Component\Process\Exception: EasySwoole\Bridge\BridgeProcess bind /mnt/d/WWW/phpApp/test/Temp/bridge.sock fail case Operation not supported in /mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:32
+Stack trace:
+#0 /mnt/d/WWW/phpApp/test/vendor/easyswoole/bridge/src/BridgeProcess.php(24): EasySwoole\Component\Process\Socket\AbstractUnixProcess->run(Array)
+#1 /mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/AbstractProcess.php(150): EasySwoole\Bridge\BridgeProcess->run(Array)
+#2 {main}
+  thrown at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2022-01-21 14:27:25][trigger][warning]:[Swoole\Coroutine\Scheduler::start(): eventLoop has already been created. unable to start Swoole\Coroutine\Scheduler at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/AbstractProcess.php line:145]
+[2022-01-21 14:27:25][trigger][error]:[Uncaught EasySwoole\Component\Process\Exception: EasySwoole\Bridge\BridgeProcess bind /mnt/d/WWW/phpApp/test/Temp/bridge.sock fail case Operation not supported in /mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:32
+Stack trace:
+#0 /mnt/d/WWW/phpApp/test/vendor/easyswoole/bridge/src/BridgeProcess.php(24): EasySwoole\Component\Process\Socket\AbstractUnixProcess->run(Array)
+#1 /mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/AbstractProcess.php(150): EasySwoole\Bridge\BridgeProcess->run(Array)
+#2 {main}
+  thrown at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2022-01-21 14:27:25][trigger][warning]:[Swoole\Coroutine\Scheduler::start(): eventLoop has already been created. unable to start Swoole\Coroutine\Scheduler at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/AbstractProcess.php line:145]
+[2022-01-21 14:27:25][trigger][error]:[Uncaught EasySwoole\Component\Process\Exception: EasySwoole\Bridge\BridgeProcess bind /mnt/d/WWW/phpApp/test/Temp/bridge.sock fail case Operation not supported in /mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:32
+Stack trace:
+#0 /mnt/d/WWW/phpApp/test/vendor/easyswoole/bridge/src/BridgeProcess.php(24): EasySwoole\Component\Process\Socket\AbstractUnixProcess->run(Array)
+#1 /mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/AbstractProcess.php(150): EasySwoole\Bridge\BridgeProcess->run(Array)
+#2 {main}
+  thrown at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2022-01-21 14:27:25][trigger][warning]:[Swoole\Coroutine\Scheduler::start(): eventLoop has already been created. unable to start Swoole\Coroutine\Scheduler at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/component/src/Process/AbstractProcess.php line:145]
+[2022-01-21 15:18:52][info][info]:[Abnormal:{"code":-1,"msg":"connection :  not register","data":[]}]
+[2022-01-21 15:19:44][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 15:20:04][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 15:22:33][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 15:42:53][info][info]:[Abnormal:{"code":-1,"msg":"connection : YhEShopPlatform not register","data":[]}]
+[2022-01-21 15:44:38][trigger][notice]:[Undefined index: host at file:/mnt/d/WWW/phpApp/test/extend/Tool/InitDb.php line:38]
+[2022-01-21 15:44:38][trigger][notice]:[Undefined index: port at file:/mnt/d/WWW/phpApp/test/extend/Tool/InitDb.php line:39]
+[2022-01-21 15:44:38][info][info]:[Abnormal:{"code":-1,"msg":"Argument 1 passed to EasySwoole\\ORM\\Db\\Config::setPort() must be of the type int, null given, called in \/mnt\/d\/WWW\/phpApp\/test\/extend\/Tool\/InitDb.php on line 39","data":[]}]
+[2022-01-21 15:45:19][trigger][notice]:[Undefined index: host at file:/mnt/d/WWW/phpApp/test/extend/Tool/InitDb.php line:38]
+[2022-01-21 15:45:19][trigger][notice]:[Undefined index: port at file:/mnt/d/WWW/phpApp/test/extend/Tool/InitDb.php line:39]
+[2022-01-21 15:45:19][info][info]:[Abnormal:{"code":-1,"msg":"Argument 1 passed to EasySwoole\\ORM\\Db\\Config::setPort() must be of the type int, null given, called in \/mnt\/d\/WWW\/phpApp\/test\/extend\/Tool\/InitDb.php on line 39","data":[]}]
+[2022-01-21 16:24:22][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 16:25:06][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 16:52:23][info][info]:[Abnormal:{"code":-1,"msg":"SQLSTATE[42000] [1064] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,3,4,5,6,7,8,21,23,24,27,28,30,163462467200 ?' at line 1 [SELECT  * FROM `mp_saas_erp_enterprise` WHERE  `db_config_id` 1,3,4,5,6,7,8,21,23,24,27,28,30,163462467200 'in' ]","data":[]}]
+[2022-01-21 16:52:45][trigger][warning]:[Invalid argument supplied for foreach() at file:/mnt/d/WWW/phpApp/test/vendor/easyswoole/mysqli/src/QueryBuilder.php line:1297]
+[2022-01-21 16:52:46][info][info]:[Abnormal:{"code":-1,"msg":"SQLSTATE[42000] [1064] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 [SELECT  * FROM `mp_saas_erp_enterprise` WHERE  `db_config_id` in ( ) ]","data":[]}]
+[2022-01-21 16:55:13][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 16:55:32][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 16:59:13][trigger][warning]:[array_column() expects parameter 1 to be array, object given at file:/mnt/d/WWW/phpApp/test/App/HttpController/Index.php line:29]
+[2022-01-21 16:59:13][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 16:59:39][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 17:00:08][info][info]:[Abnormal:{"code":-1,"msg":"swoole exit","data":[]}]
+[2022-01-21 18:09:19][info][info]:[Abnormal:{"code":-1,"msg":"connection :  not register","data":[]}]
+[2022-01-21 18:10:06][info][info]:[Abnormal:{"code":-1,"msg":"connection :  not register","data":[]}]

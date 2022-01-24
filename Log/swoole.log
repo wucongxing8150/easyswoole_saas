@@ -1,0 +1,3 @@
+[2022-01-21 14:27:25 $1335.0]	WARNING	Server::check_worker_exit_status(): worker(pid=1356, id=12) abnormal exit, status=255, signal=0
+[2022-01-21 14:27:25 $1335.0]	WARNING	Server::check_worker_exit_status(): worker(pid=1357, id=12) abnormal exit, status=255, signal=0
+[2022-01-21 14:27:25 $1335.0]	WARNING	Server::check_worker_exit_status(): worker(pid=1358, id=12) abnormal exit, status=255, signal=0
